@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8081582795363580827
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Default
+  m_Name: Default Variant Variant
   m_Shader: {fileID: -6465566751694194690, guid: c6aa7fe2d57109446a7e1f7bb3d4ad11,
     type: 3}
-  m_Parent: {fileID: 2100000, guid: 8f47a5833a64e77409701fdf863fcd50, type: 2}
+  m_Parent: {fileID: 2100000, guid: 2dd88d4dd37bcd1468337d90591f7e1c, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - ADDITIONAL_LIGHT_CALCULATE_SHADOWS
@@ -53,12 +40,22 @@ Material:
     m_Ints: []
     m_Floats:
     - _QueueControl: 0
-    - _Smoothness: 0
     - _Threshold: 0.5
-    - _Threshold_Highlight: 0.75
-    - _Threshold_Shadow: 0.08
     m_Colors:
-    - _Highlight: {r: 0.3270737, g: 0.6005151, b: 0.9245283, a: 0}
-    - _Midtone: {r: 0.22054112, g: 0.48220012, b: 0.7924528, a: 0}
-    - _Shadow: {r: 0.08414916, g: 0.23254605, b: 0.5754717, a: 0}
+    - _Highlight: {r: 1, g: 1, b: 1, a: 0}
+    - _Midtone: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 0}
+    - _Shadow: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &3241531486961854328
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

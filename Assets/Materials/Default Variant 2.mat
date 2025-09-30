@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8081582795363580827
+--- !u!114 &-5809710799730173229
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,10 +20,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Default
+  m_Name: Default Variant 2
   m_Shader: {fileID: -6465566751694194690, guid: c6aa7fe2d57109446a7e1f7bb3d4ad11,
     type: 3}
-  m_Parent: {fileID: 2100000, guid: 8f47a5833a64e77409701fdf863fcd50, type: 2}
+  m_Parent: {fileID: 2100000, guid: d60db1350aa31bd4080a3bb5e2541934, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - ADDITIONAL_LIGHT_CALCULATE_SHADOWS
@@ -53,12 +53,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _QueueControl: 0
-    - _Smoothness: 0
     - _Threshold: 0.5
-    - _Threshold_Highlight: 0.75
-    - _Threshold_Shadow: 0.08
+    - _Threshold_Shadow: 0.06
     m_Colors:
-    - _Highlight: {r: 0.3270737, g: 0.6005151, b: 0.9245283, a: 0}
-    - _Midtone: {r: 0.22054112, g: 0.48220012, b: 0.7924528, a: 0}
-    - _Shadow: {r: 0.08414916, g: 0.23254605, b: 0.5754717, a: 0}
+    - _Highlight: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 0}
+    - _Midtone: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
+    - _Shadow: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
